@@ -1,0 +1,180 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1d1f28;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #fff;
+  }
+  
+  a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #007acc;
+  }
+  
+  /* Menú de navegación */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    display: block;
+    padding: 0 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Secciones con diferentes escalas de color */
+  .about {
+    background-color: #1d1f28;
+  }
+  
+  .projects {
+    background-color: #2c2f3a;
+  }
+  
+  .certifications {
+    background-color: #3c3f4b;
+  }
+  
+  .footer {
+    background-color: #333;
+  }
+  
+  /* Grid de certificaciones */
+  .certifications-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .certification {
+    text-align: center;
+  }
+  
+  .certification img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  /* Animaciones hover y sombreado */
+  img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Slider */
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #948e8e;
+    cursor: pointer;
+  }
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .slides-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    min-width: 100%;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #a1a0a0;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .project-img {
+    width: 100%;
+    max-width: 400px; /* Ajusta el tamaño máximo de las imágenes de los proyectos */
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para las imágenes de certificaciones */
+  .certification-img {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 200px; /* Ajusta el tamaño máximo de las imágenes de las certificaciones */
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  
