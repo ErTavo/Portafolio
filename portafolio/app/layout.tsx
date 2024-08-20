@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "ErTavo.com",
     template: "%s | ErTavo.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Portafolio de Gustavo Gutierrez",
   openGraph: {
     title: "ErTavo.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Portafolio de Gustavo Gutierrez",
     url: "https://ErTavo.com",
     siteName: "ErTavo.com",
     images: [
