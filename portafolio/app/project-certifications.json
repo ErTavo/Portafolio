@@ -1,0 +1,27 @@
+{
+    "projects": [
+      {
+        "name": "Project 1",
+        "image": "https://example.com/project1.jpg",
+        "link": "https://project1.com"
+      },
+      {
+        "name": "Project 2",
+        "image": "https://example.com/project2.jpg",
+        "link": "https://project2.com"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certification 1",
+        "image": "https://example.com/certification1.jpg",
+        "link": "https://certification1.com"
+      },
+      {
+        "name": "Certification 2",
+        "image": "https://example.com/certification2.jpg",
+        "link": "https://certification2.com"
+      }
+    ]
+  }
+  
