@@ -1,26 +1,31 @@
 {
     "projects": [
       {
-        "name": "Project 1",
-        "image": "https://example.com/project1.jpg",
-        "link": "https://project1.com"
+        "name": "Pokedex",
+        "image": "https://articles.pokebattler.com/wp-content/uploads/2018/08/pokedex-kanto-1.jpg",
+        "link": "https://poke-api-black-three.vercel.app"
       },
       {
-        "name": "Project 2",
-        "image": "https://example.com/project2.jpg",
-        "link": "https://project2.com"
+        "name": "Cafe-Fuego",
+        "image": "https://mundocafeto.com/wp-content/uploads/2020/02/planta-de-cafe-caracteristicas-750x440.jpg",
+        "link": "https://www.cafe-fuego.com"
       }
     ],
     "certifications": [
       {
-        "name": "Certification 1",
-        "image": "https://example.com/certification1.jpg",
-        "link": "https://certification1.com"
+        "name": "Python",
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-3e88ce9b-1cdb-4c04-84db-d5b0278b04d6.jpg?v=1662351906000",
+        "link": "http://ude.my/UC-3e88ce9b-1cdb-4c04-84db-d5b0278b04d6"
       },
       {
-        "name": "Certification 2",
-        "image": "https://example.com/certification2.jpg",
-        "link": "https://certification2.com"
+        "name": "Scrum usage",
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-753554c3-b017-46b9-a77a-76ac7a73d48f.jpg?v=1661478706000",
+        "link": "http://ude.my/UC-753554c3-b017-46b9-a77a-76ac7a73d48f"
+      },
+      {
+        "name": "Unity 5",
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-RZJ7O7XD.jpg?v=1485303333000",
+        "link": "http://ude.my/UC-RZJ7O7XD"
       }
     ]
   }

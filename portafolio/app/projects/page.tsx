@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import { Navigation } from "../components/nav";
 import Spline from '@splinetool/react-spline';
