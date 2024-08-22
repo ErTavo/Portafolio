@@ -100,14 +100,14 @@ export default function ProjectsPage() {
                 className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &#9664; {/* Flecha hacia la izquierda */}
+                &lt; {/* Símbolo de flecha hacia la izquierda */}
               </button>
               <button
                 onClick={nextProjectSlide}
                 className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &#9654; {/* Flecha hacia la derecha */}
+                &gt; {/* Símbolo de flecha hacia la derecha */}
               </button>
             </div>
           </div>
@@ -156,14 +156,14 @@ export default function ProjectsPage() {
                 className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &#9664; {/* Flecha hacia la izquierda */}
+                &lt; {/* Símbolo de flecha hacia la izquierda */}
               </button>
               <button
                 onClick={nextCertificationSlide}
                 className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &#9654; {/* Flecha hacia la derecha */}
+                &gt; {/* Símbolo de flecha hacia la derecha */}
               </button>
             </div>
           </div>
