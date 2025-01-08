@@ -1,10 +1,10 @@
-"use client"; // Asegúrate de que es un componente cliente
+"use client";
 
 import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation"; // Para la navegación
-import data from "../project-certifications.json"; // Ajusta la ruta si es necesario
-import { Navigation } from "../components/nav"; // Importa el componente de navegación
-import Spline from '@splinetool/react-spline'; // Asegúrate de importar Spline
+import { useRouter } from "next/navigation"; 
+import data from "../project-certifications.json"; 
+import { Navigation } from "../components/nav"; 
+import Spline from '@splinetool/react-spline'; 
 
 interface ProjectCertification {
   name: string;
@@ -18,7 +18,7 @@ export default function ProjectsPage() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
   const [currentCertificationIndex, setCurrentCertificationIndex] = useState(0);
   
-  const router = useRouter(); // Para la navegación
+  const router = useRouter(); 
 
   useEffect(() => {
     setProjects(data.projects);
@@ -56,7 +56,7 @@ export default function ProjectsPage() {
         className="absolute inset-0 z-[-1] w-full h-full"
       />
       <div className="relative pb-16 bg-transparent text-zinc-100">
-        <Navigation /> {/* Reutiliza el componente de navegación para mantener el estilo */}
+        <Navigation /> 
         <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32 mt-16">
           <div className="max-w-2xl mx-auto lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
@@ -100,14 +100,14 @@ export default function ProjectsPage() {
                 className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &lt; {/* Símbolo de flecha hacia la izquierda */}
+                &lt; 
               </button>
               <button
                 onClick={nextProjectSlide}
                 className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &gt; {/* Símbolo de flecha hacia la derecha */}
+                &gt; 
               </button>
             </div>
           </div>
@@ -156,14 +156,14 @@ export default function ProjectsPage() {
                 className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &lt; {/* Símbolo de flecha hacia la izquierda */}
+                &lt; 
               </button>
               <button
                 onClick={nextCertificationSlide}
                 className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-transparent text-white px-3 py-1 rounded-full transition-transform duration-300 ease-in-out hover:scale-125"
                 style={{ fontSize: "24px" }}
               >
-                &gt; {/* Símbolo de flecha hacia la derecha */}
+                &gt; {}
               </button>
             </div>
           </div>

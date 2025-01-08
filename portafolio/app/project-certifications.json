@@ -9,7 +9,28 @@
         "name": "Cafe-Fuego",
         "image": "https://mundocafeto.com/wp-content/uploads/2020/02/planta-de-cafe-caracteristicas-750x440.jpg",
         "link": "https://www.cafe-fuego.com"
+      },
+      {
+        "name": "Banco-JulioCesar-front",
+        "image": "https://media.istockphoto.com/id/1351373355/es/vector/banca-en-l%C3%ADnea-que-se-muestra-en-el-tel%C3%A9fono-m%C3%B3vil.jpg?s=612x612&w=0&k=20&c=f0KN7bZU_qVsrXvabdC-4POVjfYYGs6HuLAmyu_3md8=",
+        "link": "https://banco-jc-front.vercel.app"
+      },
+      {
+        "name": "Banco-JulioCesar-back",
+        "image": "https://t4.ftcdn.net/jpg/05/46/10/15/360_F_546101577_7eZax3OCPZ1x8aST0oVsnDfX2OzjBsGr.jpg",
+        "link": "https://github.com/ErTavo/bancoJC-back"
+      },
+      {
+        "name": "MagicQuest-front",
+        "image": "https://scontent.fgua8-1.fna.fbcdn.net/v/t39.30808-6/467651340_122117635676574058_936641617074288054_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=tXtDGD2XrZMQ7kNvgFN8HH9&_nc_zt=23&_nc_ht=scontent.fgua8-1.fna&_nc_gid=A2s2VLpSz7hHe40Yq8-xkoN&oh=00_AYDjOyQSTRBXXAb3fn04QDFNTqBzaTtzEH64Y4UM7YqyLQ&oe=67848319",
+        "link": "https://magic-quest-front.vercel.app"
+      },
+      {
+        "name": "MagicQuest-back",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHTarVi0G3kxsvtBKDASmkHPPl-kAF9KReJg&s",
+        "link": ""
       }
+      
     ],
     "certifications": [
       {
